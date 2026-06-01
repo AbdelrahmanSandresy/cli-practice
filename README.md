@@ -5,34 +5,38 @@
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What is the command line?
-
+    It's a built in interface that allows user to interact with the machine with no GUI. User executes commands in the shell
 * How do you open it on your computer?
-
+    On MacOs utilize the terminal. in vs code press ^ + shift+ `
 * How can you navigate into a particular file directory?
     - Where will `cd .` navigate you to?
+        the current directory
     - Where will `cd ..` navigate you to?
+        the parent directory fom the current directory. one level above
     - Where will `cd ~` navigate you to?
+        user home directory
     - Where will `cd /` navigate you to?
+        root directory
 
 
 * How can you display the name of the directory you are currently in?
-
+    pwd
 * How can you display the contents of the directory you are currently in?
-
+    ls      
 * How can you create a new directory?
-
+    mkdir <dirName>
 * How can you create a new file?
-
+    touch <filename>
 * How can you destroy a directory or file?
-
+    for files rm <filename> for dir rm -r <dirname> 
 * How can you rename a directory or file?
-
+    mv <old-dir or filename> <new_Name>
 ## Assignment:
 
 1. Complete this interactive course to get a great handle on the essentials of using a command-line interface and navigating directories - [Terminal Tutor](https://www.terminaltutor.com/)
+    Done 
 
 2. Complete the below exercise locally on your own computer.
-
 > Unlike Terminal Tutor, your own local terminal can autocomplete file names based on the directory you are in. For example, if you had a directory structure like:
 > ```
 > home
